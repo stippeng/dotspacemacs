@@ -321,7 +321,7 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
 ; START TABS CONFIG
 ;; Create a variable for our preferred tab width
-(setq custom-tab-width 2)
+(setq custom-tab-width 4)
 
 ;; Two callable functions for enabling/disabling tabs in Emacs
 (defun disable-tabs () (setq indent-tabs-mode nil))
